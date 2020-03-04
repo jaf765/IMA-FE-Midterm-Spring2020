@@ -26,7 +26,7 @@ body{
   position: sticky;
   background-color: #ffffff;
   overflow: hidden;
-  border-bottom: 1px solid #555;
+  border-bottom: 2px solid #555;
 }
 
 /* Style the links inside the navigation bar */
@@ -47,8 +47,10 @@ body{
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  background-color: white;
+  color: black;
+  font-family: Shrikhand;
+  font-size: 27px;
 }
 
 /* Centered section inside the top navigation */
