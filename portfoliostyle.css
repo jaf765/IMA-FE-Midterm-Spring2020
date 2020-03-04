@@ -85,8 +85,11 @@ body {
 }
 
 #header {
-  font-family: 'Shrikhand';
-  font-style: bolditalic;
+  /* font-family: 'Shrikhand';
+  font-style: bolditalic; */
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-style: italic;
   font-size: 200px;
   line-height: 200px;
   text-align: right;
@@ -131,6 +134,11 @@ body {
 
 }
 
+.leftButton:hover {
+  background-color: black;
+  color: white;
+}
+
 .centerBox {
   height: 262px;
   width: 500px;
@@ -155,6 +163,11 @@ body {
 
 }
 
+.centerButton:hover {
+  background-color: black;
+  color: white;
+}
+
 .rightBox {
   height: 262px;
   width: 500px;
@@ -177,6 +190,11 @@ body {
   font-size: 60px;
   box-shadow: -20px 20px;
 
+}
+
+.rightButton:hover {
+  background-color: black;
+  color: white;
 }
 
 /* FOOTER STYLE */
