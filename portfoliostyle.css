@@ -99,15 +99,14 @@ body {
 
 .leftBox {
   height: 200px;
-  width: 470px;
+  width: 460px;
   background-color: #69a2b0;
   margin-top: 30px;
-  margin-left: 40px;
 }
 
 .centerBox {
   height: 200px;
-  width: 470px;
+  width: 460px;
   background-color: #577392;
   margin-top: 30px;
   margin-left: 20px;
@@ -115,7 +114,7 @@ body {
 
 .rightBox {
   height: 200px;
-  width: 470px;
+  width: 460px;
   background-color: #e05263;
   margin-top: 30px;
   margin-left: 20px;
