@@ -88,6 +88,11 @@ body {
   font-family: 'Shrikhand';
   font-style: bolditalic;
   font-size: 200px;
+  line-height: 200px;
+  text-align: right;
+  padding-top: 50px;
+  margin-right: 50px;
+
 }
 
 .container2 {
