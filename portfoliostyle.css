@@ -85,6 +85,42 @@ body {
   margin-top: 40px;
 }
 
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#bottomBoxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.leftBox {
+  height: 200px;
+  width: 470px;
+  background-color: #69a2b0;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.centerBox {
+  height: 200px;
+  width: 470px;
+  background-color: #577392;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.rightBox {
+  height: 200px;
+  width: 470px;
+  background-color: #e05263;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
 /* FOOTER STYLE */
 .footer {
    position: fixed;
