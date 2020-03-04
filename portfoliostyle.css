@@ -1,3 +1,14 @@
-.spottedback{
-  background-image:
+body{
+  background-image:url("bkgrnd2.png");
+  background-repeat: repeat;
+  background-size: 900px
+  background-attachment: fixed;
+}
+
+.headerBox {
+
+}
+
+.flex-container {
+  display: flex;
 }
