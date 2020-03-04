@@ -79,10 +79,15 @@ body {
 
 .pinkBox {
   height: 450px;
-  width:1420px;
+  width:1500px;
   background-color: #ffcab1;
   margin: auto;
-  margin-top: 40px;
+}
+
+#header {
+  font-family: 'Montserrat', sans-serif;
+  font-style: bolditalic;
+  font-size: 100px;
 }
 
 .container2 {
@@ -99,25 +104,20 @@ body {
 
 .leftBox {
   height: 200px;
-  width: 460px;
+  width: 500px;
   background-color: #69a2b0;
-  margin-top: 30px;
 }
 
 .centerBox {
   height: 200px;
-  width: 460px;
+  width: 500px;
   background-color: #577392;
-  margin-top: 30px;
-  margin-left: 20px;
 }
 
 .rightBox {
   height: 200px;
-  width: 460px;
+  width: 500px;
   background-color: #e05263;
-  margin-top: 30px;
-  margin-left: 20px;
 }
 
 /* FOOTER STYLE */
