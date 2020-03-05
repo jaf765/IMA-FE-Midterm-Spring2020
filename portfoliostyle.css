@@ -85,18 +85,28 @@ body {
 }
 
 #header {
-  /* font-family: 'Shrikhand';
-  font-style: bolditalic; */
+  font-family: 'Montserrat';
+  font-style: bolditalic;
+  font-size: 70px;
+  text-align: right;
+  padding-top: 60px;
+  padding-right: 90px;
+  /* padding-top: 50px;
+  margin-left: 50px; */
+}
+
+ #myName {
   font-family: 'Montserrat';
   font-weight: 900;
   font-style: italic;
-  font-size: 200px;
-  line-height: 200px;
-  text-align: right;
-  padding-top: 50px;
-  margin-right: 50px;
-
+  font-size: 190px;
+  margin-top: -200px;
+  padding-top: -100px;
+  margin-left: 70px;
+  text-align: left;
 }
+
+
 
 .container2 {
   display: flex;
