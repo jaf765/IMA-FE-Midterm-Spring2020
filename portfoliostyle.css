@@ -1,10 +1,12 @@
+
+
 *{
   margin: 0;
   padding:0;
 }
 
 body {
-  background-image: url("bkgrnd2.png");
+  background-image: url("bkgrnd.png");
   min-height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,9 +23,9 @@ body {
 /* Add a black background color to the top navigation */
 .topnav {
   position: sticky;
-  background-color: #ffffff;
+  background-color: black;
   overflow: hidden;
-  border-bottom: 2px solid black;
+  /* border-bottom: 2px solid black; */
 }
 
 /* NAVBAR STYLE */
@@ -45,8 +47,8 @@ body {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   font-family: Shrikhand;
   font-size: 27px;
 }
@@ -78,34 +80,37 @@ body {
 }
 
 .pinkBox {
-  height: 500px;
+  height: 510px;
   width:1500px;
   background-color: #ffcab1;
   margin: auto;
+  border-bottom: 4px solid black;
 }
 
 #header {
   font-family: 'Montserrat';
-  font-style: bolditalic;
+  font-weight: 400;
+  font-style: italic;
   font-size: 70px;
   text-align: right;
   padding-top: 60px;
-  padding-right: 90px;
-  /* padding-top: 50px;
-  margin-left: 50px; */
+  padding-right: 200px;
+  color: white;
+
+  padding-top: 50px;
+  margin-left: 50px;
 }
 
  #myName {
-  font-family: 'Montserrat';
-  font-weight: 900;
-  font-style: italic;
-  font-size: 190px;
-  margin-top: -200px;
-  padding-top: -100px;
-  margin-left: 70px;
-  text-align: left;
+   font-family: 'Montserrat';
+ font-weight: 900;
+ font-style: italic;
+ font-size: 190px;
+ margin-top: -200px;
+ padding-top: -100px;
+ margin-left: 70px;
+ text-align: left;
 }
-
 
 
 .container2 {
@@ -136,7 +141,7 @@ body {
   padding: 15px 32px;
   float: left;
   margin-top: 110px;
-  margin-left: 80px;
+  margin-left: 50px;
   text-decoration: none;
   display: inline-block;
   font-size: 60px;
@@ -165,7 +170,7 @@ body {
   padding: 15px 32px;
   float: left;
   margin-top: 110px;
-  margin-left: 80px;
+  margin-left: 50px;
   text-decoration: none;
   display: inline-block;
   font-size: 60px;
@@ -194,7 +199,7 @@ body {
   padding: 15px 32px;
   float: left;
   margin-top: 110px;
-  margin-left: 80px;
+  margin-left: 50px;
   text-decoration: none;
   display: inline-block;
   font-size: 60px;
@@ -217,4 +222,50 @@ body {
    background-color: black;
    color: white;
    text-align: center;
+}
+
+
+
+
+/* PROJECT.HTML */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  padding-top: 10px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* li a.active {
+  background-color: #ffcab1;
+  color: white;
+} */
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.font-style {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-size: 20px;
+}
+
+.top-of-list {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
 }
