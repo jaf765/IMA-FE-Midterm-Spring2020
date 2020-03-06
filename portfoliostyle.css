@@ -82,9 +82,9 @@ body {
 .pinkBox {
   height: 510px;
   width:1500px;
-  background-color: #ffcab1;
+  background-color: #E692A3;
   margin: auto;
-  border-bottom: 4px solid black;
+  padding-bottom: 70px;
 }
 
 #header {
@@ -103,13 +103,14 @@ body {
 
  #myName {
    font-family: 'Montserrat';
- font-weight: 900;
- font-style: italic;
- font-size: 190px;
- margin-top: -200px;
- padding-top: -100px;
- margin-left: 70px;
- text-align: left;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 190px;
+  margin-top: -200px;
+  padding-top: -100px;
+  margin-left: 100px;
+  text-align: left;
+  color: black;
 }
 
 
@@ -119,16 +120,20 @@ body {
   justify-content: center;
 }
 
-#bottomBoxes {
+.bottomBoxes {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
+  background-color: #E692A3;
+
 }
 
 .leftBox {
   height: 262px;
   width: 500px;
-  background-color: #69a2b0;
+  /* background-color: #ffcab1; */
+  padding-left: 50px;
 }
 
 .leftButton {
@@ -139,9 +144,9 @@ body {
   font-weight: 700;
   font-style: italic;
   padding: 15px 32px;
-  float: left;
-  margin-top: 110px;
-  margin-left: 50px;
+  float: center;
+  /* margin-top: 110px;
+  margin-left: 50px; */
   text-decoration: none;
   display: inline-block;
   font-size: 60px;
@@ -157,7 +162,7 @@ body {
 .centerBox {
   height: 262px;
   width: 500px;
-  background-color: #577392;
+  /* background-color: #ffcab1; */
 }
 
 .centerButton {
@@ -168,9 +173,9 @@ body {
   font-weight: 700;
   font-style: italic;
   padding: 15px 32px;
-  float: left;
-  margin-top: 110px;
-  margin-left: 50px;
+  float: center;
+  /* margin-top: 110px;
+  margin-left: 50px; */
   text-decoration: none;
   display: inline-block;
   font-size: 60px;
@@ -186,7 +191,7 @@ body {
 .rightBox {
   height: 262px;
   width: 500px;
-  background-color: #e05263;
+  /* background-color: #ffcab1; */
 }
 
 .rightButton {
@@ -197,9 +202,9 @@ body {
   font-weight: 700;
   font-style: italic;
   padding: 15px 32px;
-  float: left;
-  margin-top: 110px;
-  margin-left: 50px;
+  float: center;
+  /* margin-top: 110px;
+  margin-left: 50px; */
   text-decoration: none;
   display: inline-block;
   font-size: 60px;
@@ -213,7 +218,7 @@ body {
 }
 
 /* FOOTER STYLE */
-.footer {
+/* .footer {
    position: fixed;
    left: 0;
    bottom: 0;
@@ -222,7 +227,7 @@ body {
    background-color: black;
    color: white;
    text-align: center;
-}
+} */
 
 
 
