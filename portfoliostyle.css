@@ -6,7 +6,9 @@
 }
 
 body {
-  background-image: url("bkgrnd.png");
+  background-color: #f9f2f2;
+  background-image: url("gridback.png");
+  background-blend-mode: difference;
   min-height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,6 +30,7 @@ body {
   overflow: hidden;
   height: 42px;
   width: 100%;
+  font-family: 'Shrikhand';
   /* border-bottom: 2px solid black; */
 }
 
@@ -44,13 +47,12 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: black;
+  /* background-color: black; */
   color: white;
   font-family: Shrikhand;
   font-size: 27px;
@@ -79,16 +81,20 @@ body {
 .whiteBack {
   height: 762px;
   width:1500px;
-  background-color: white;
+
 }
 
 .pinkBox {
   height: 510px;
   width:1500px;
-  background-color: #E692A3;
+  /* background-color: #469171; */
   margin: auto;
   padding-top: 70px;
   padding-bottom: 90px;
+}
+
+.big {
+  font-size: 250px;
 }
 
 #header {
@@ -98,8 +104,8 @@ body {
   font-size: 70px;
   text-align: right;
   padding-top: 60px;
-  padding-right: 200px;
-  color: white;
+  padding-right: 100px;
+  color: #f98a8a;
 
   padding-top: 50px;
   margin-left: 50px;
@@ -110,11 +116,12 @@ body {
   font-weight: 900;
   font-style: italic;
   font-size: 190px;
-  margin-top: -200px;
+  margin-top: -175px;
   padding-top: -100px;
   margin-left: 100px;
   text-align: left;
   color: black;
+  line-height: 225px;
 }
 
 
@@ -129,7 +136,7 @@ body {
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  background-color: #E692A3;
+  background-color: ;
 
 }
 
@@ -141,7 +148,7 @@ body {
 }
 
 .leftButton {
-  background-color: white;
+  background-color: #b9dbcc;
   border: none;
   color: black;
   font-family: 'Montserrat';
@@ -170,7 +177,7 @@ body {
 }
 
 .centerButton {
-  background-color: white;
+  background-color: #b9dbcc;
   border: none;
   color: black;
   font-family: 'Montserrat';
@@ -199,7 +206,7 @@ body {
 }
 
 .rightButton {
-  background-color: white;
+  background-color: #b9dbcc;
   border: none;
   color: black;
   font-family: 'Montserrat';
@@ -237,46 +244,195 @@ body {
 
 
 /* PROJECT.HTML */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 15%;
-  background-color: black;
-  position: fixed;
+.sidenav {
   height: 100%;
-  overflow: auto;
-  padding-top: 40px;
-  color: white;
-  padding-left: 10px;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: ;
+  overflow-x: hidden;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin-top: 42px;
+
 }
 
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
+/* Style the sidenav links and the dropdown button */
+.sidenav a {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-style: italic;
+  font-size: 30px;
   text-decoration: none;
-  color:white;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+
 }
 
-/* li a.active {
-  background-color: #ffcab1;
+
+
+/* On mouse-over */
+.sidenav a:hover {
+  color: #f79c9c;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+/* .sidenav: active {
+  background-color: green;
   color: white;
 } */
 
-li a:hover:not(.active) {
- font-style: italic;
-  color: #E692A3;
+
+.container3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  height: 1080px;
+  width:1400px;
+  /* background-color: #469171; */
+  margin-left: 300px;
+  padding-top: 70px;
+  padding-bottom: 90px;
 }
 
-.font-style {
+.spherrorHeader{
+  background-image: url("Image 12-17-19 at 4.35 PM.jpg");
+  height: 400px;
+  width: 400px;
+  border-radius: 30px 30px 0px 0px;
+  margin-top: 100px;
+}
+
+.spherrorBox{
+
+}
+.spherrorName{
+  background-color: white;
+  height: 70px;
+  width: 400px;
+  text-decoration: none;
   font-family: 'Montserrat';
   font-size: 20px;
-}
-
-.top-of-list {
-  font-family: 'Montserrat';
   font-weight: 700;
   font-style: italic;
-  font-size: 30px;
+  text-align: center;
+  color: black;
+  padding-top: 15px;
+  border-radius: 0px 0px 30px 30px;
+  margin-right: 50px;
+
+
+
+}
+.spherrorBlurb{
+  padding-top: 10px;
+font-family: 'Montserrat';
+font-size: 16px;
+text-align: center;
+font-weight: 400;
+font-style: normal;
+}
+
+
+.animationHeader{
+  background-image: url("thecoffeeshop.jpeg");
+  height: 400px;
+  width: 400px;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.animationBox{
+
+}
+.animationName{
+  background-color: white;
+  height: 70px;
+  width: 400px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  color: black;
+  padding-top: 15px;
+  border-radius: 0px 0px 30px 30px;
+
+
+
+}
+.animationBlurb{
+  padding-top: 10px;
+font-family: 'Montserrat';
+font-size: 16px;
+text-align: center;
+font-weight: 400;
+font-style: normal;
+color: white;
+}
+
+
+.crankyHeader{
+  background-image: url("crankylogo.jpg");
+  background-size: contain;
+  height: 400px;
+  width: 400px;
+  border-radius: 30px 30px 0px 0px;
+  margin-left: 50px;
+  border: 4px solid black;
+}
+
+.crankyBox{
+
+}
+.crankyName{
+  background-color: black;
+  height: 70px;
+  width: 400px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  border-radius: 0px 0px 30px 30px;
+  margin-left: 50px;
+
+
+
+}
+.crankyBlurb{
+  padding-top: 10px;
+font-family: 'Montserrat';
+font-size: 16px;
+text-align: center;
+font-weight: 400;
+font-style: normal;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
