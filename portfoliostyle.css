@@ -24,9 +24,9 @@ body {
 /* style for navbar */
 /* Add a black background color to the top navigation */
 .topnav {
-  position: fixed;
-  top: 0;
-  background-color: black;
+  position: absolute;
+top: 0;
+  /* background-color: black; */
   overflow: hidden;
   height: 42px;
   width: 100%;
@@ -38,7 +38,7 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -53,7 +53,7 @@ body {
 /* Add a color to the active/current link */
 .topnav a.active {
   /* background-color: black; */
-  color: white;
+  color: black;
   font-family: Shrikhand;
   font-size: 27px;
 }
@@ -309,24 +309,24 @@ body {
   height: 1080px;
   width:1400px;
   /* background-color: #469171; */
-  margin-left: 300px;
+  margin-left: 250px;
   padding-top: 70px;
   padding-bottom: 90px;
 }
 
 .spherrorHeader{
   background-image: url("Image 12-17-19 at 4.35 PM.jpg");
-  height: 400px;
-  width: 400px;
-  border-radius: 30px 30px 0px 0px;
-  margin-top: 100px;
+  background-size: contain;
+  margin-top: 30px;
+  height: 350px;
+  width: 350px;
+  margin-left: 30px;
 }
 
 .spherrorBox{
 
 }
 .spherrorName{
-  background-color: white;
   height: 70px;
   width: 400px;
   text-decoration: none;
@@ -336,35 +336,21 @@ body {
   font-style: italic;
   text-align: center;
   color: black;
-  padding-top: 15px;
+  padding-top: 30px;
   border-radius: 0px 0px 30px 30px;
   margin-right: 50px;
-
-
-
 }
-.spherrorBlurb{
-  padding-top: 10px;
-font-family: 'Montserrat';
-font-size: 16px;
-text-align: center;
-font-weight: 400;
-font-style: normal;
-}
-
 
 .animationHeader{
   background-image: url("thecoffeeshop.jpeg");
-  height: 400px;
-  width: 400px;
-  border-radius: 30px 30px 0px 0px;
+  background-size: contain;
+  margin-top: 30px;
+  height: 350px;
+  width: 350px;
+  margin-left: 30px;
 }
 
-.animationBox{
-
-}
 .animationName{
-  background-color: white;
   height: 70px;
   width: 400px;
   text-decoration: none;
@@ -374,13 +360,10 @@ font-style: normal;
   font-style: italic;
   text-align: center;
   color: black;
-  padding-top: 15px;
+  padding-top: 30px;
   border-radius: 0px 0px 30px 30px;
-
-
-
 }
-.animationBlurb{
+.blurb{
   padding-top: 10px;
 font-family: 'Montserrat';
 font-size: 16px;
@@ -394,18 +377,30 @@ color: white;
 .crankyHeader{
   background-image: url("crankylogo.jpg");
   background-size: contain;
-  height: 400px;
-  width: 400px;
-  border-radius: 30px 30px 0px 0px;
-  margin-left: 50px;
-  border: 4px solid black;
-}
-
-.crankyBox{
+  margin-top: 30px;
+  height: 350px;
+  width: 350px;
+  margin-left: 30px;
 
 }
-.crankyName{
+
+.projectBox{
+  height: 500px;
+  width: 410px;
   background-color: black;
+  margin: 30px;
+
+}
+.title{
+  text-decoration: none;
+  color: white;
+}
+
+.title:hover {
+  color: #red;
+}
+
+.crankyName{
   height: 70px;
   width: 400px;
   text-decoration: none;
@@ -415,21 +410,11 @@ color: white;
   font-style: italic;
   text-align: center;
   color: white;
-  padding-top: 15px;
-  border-radius: 0px 0px 30px 30px;
-  margin-left: 50px;
-
+  padding-top: 30px;
 
 
 }
-.crankyBlurb{
-  padding-top: 10px;
-font-family: 'Montserrat';
-font-size: 16px;
-text-align: center;
-font-weight: 400;
-font-style: normal;
-}
+
 
 /* Some media queries for responsiveness */
 @media screen and (max-height: 450px) {
