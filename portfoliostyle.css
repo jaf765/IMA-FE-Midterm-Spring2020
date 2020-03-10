@@ -282,7 +282,7 @@ top: 0;
   justify-content: center;
 
   height: 1080px;
-  width:100%;
+  width:90%;
   background-color: white;
   padding-bottom: 90px;
   margin: auto;
@@ -368,9 +368,14 @@ color: black;
   /* box-shadow: #d8afaf -20px 20px;
   outline: #d8afaf solid 2px; */
 }
+
+.projectBox:hover{
+  background-color: #b9dbcc;
+}
 .title{
   text-decoration: none;
   color: black;
+  font-size: 30px;
 }
 
 .crankyName{
@@ -425,7 +430,7 @@ color: black;
   font-weight:700;
   font-style: italic;
   font-size: 100px;
-  margin-top: -50px;
+  padding-top: -100px;
   line-height: 190px;
   width: 780px;
   display: inline-block;
