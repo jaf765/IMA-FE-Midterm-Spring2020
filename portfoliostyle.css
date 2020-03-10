@@ -572,6 +572,17 @@ color: black;
     flex-direction: column;
     align-items: center;
   }
+
+  .email {
+    font-size: 60px;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .container3{
+    flex-direction: column;
+    height: 100%;
+  }
 }
 
 
@@ -586,4 +597,26 @@ color: black;
     font-size: 60px;
     padding: 0px;
   }
+
+  .contactStyle{
+    font-size: 60px;
+  }
+
+  .email {
+    font-size: 40px;
+  }
+
+  .aboutBlurb{
+    width: 400px;
+  }
+
+.big2 {
+  font-size: 100px;
+}
+.aboutName {
+  font-size: 45px;
+  line-height: 70px;
+  padding-right: 0px;
+}
+
 }
